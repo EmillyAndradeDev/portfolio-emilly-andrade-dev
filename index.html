@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfólio - Emilly Andrade Dev</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet" />
+  <!-- Bibliotecas de ícones -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- CABEÇALHO / NAVEGAÇÃO -->
+  <header>
+    <div class="container nav-wrapper">
+      <h1 class="logo">EmillyAndrade<span class="realce">DEV</span></h1>
+
+      <!-- Menu mobile com checkbox -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <nav class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#github">GitHub</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO - Sessão de boas-vindas com animação de texto -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-img">
+        <img src="assets/img/foto-emilly-andrade.jfif" alt="Foto de perfil" class="profile-img" />
+      </div>
+      <div class="hero-text">
+        <h2><span class="typed-text" id="typed"></span></h2>
+        <p>
+          Dev em formação, com um pé no front-end, outro no back-end, e a mente voltada para soluções completas.
+        </p>
+        <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre" class="section">
+    <div class="container about-text">
+      <h2 class="section-title">Sobre mim</h2>
+      <p class="section-text">
+        Sou estudante de Análise e Desenvolvimento de Sistemas e futura desenvolvedora full stack. Minha trajetória
+        começou na área de humanas e passou por experiências com docência, atendimento ao público e design gráfico — foi
+        nesse caminho que descobri a tecnologia como ponte entre criatividade e impacto real.
+      </p>
+      <p class="section-text">
+        Hoje, estou focada no desenvolvimento web, atuando principalmente com front-end, mas expandindo meus
+        conhecimentos para o back-end com Node.js e JavaScript moderno. Meu objetivo é dominar todas as camadas do
+        desenvolvimento e criar soluções completas, funcionais e acessíveis.
+      </p>
+      <p class="section-text">
+        Tenho facilidade em aprender, sou organizada, curiosa e movida por desafios. Acredito que o desenvolvimento full
+        stack vai além da técnica — envolve colaboração, escuta ativa e empatia para construir produtos que realmente
+        resolvam problemas e melhorem a experiência das pessoas.
+      </p>
+    </div>
+  </section>
+
+  <!-- HABILIDADES / STACKS (Cards) -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <!-- Cada "skill-card" representa uma habilidade com ícone -->
+        <div class="skill-card">
+          <i class="devicon-html5-plain colored"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-css3-plain colored"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-javascript-plain colored"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-python-plain colored"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-cplusplus-plain colored"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-git-plain colored"></i>
+          <span>Git</span>
+        </div>
+        <div class="skill-card">
+          <i class="devicon-github-original colored"></i>
+          <span>GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="github" class="section">
+    <div class="container">
+      <h2 class="section-title">Meus códigos no GitHub</h2>
+      <p class="section-subtitle">Meu portfólio no GitHub reflete minha jornada de aprendizado em programação. Lá você
+        encontrará projetos e exercícios que demonstram minha evolução e paixão por desafios.</p>
+      <a href="https://github.com/emilly-andrade-dev" target="_blank" class="btn btn-primary">
+        <i class="devicon-github-original"></i> Ver meu GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="projetos-grid">
+        <div class="projeto-card">
+          <img src="assets/img/screenshots/projeto-cardapio-poema-cafe-02.jpeg" alt="Print do projeto 1" />
+          <h3>Criação de Cardápio para Cafeteria - Poema Café</h3>
+          <p>
+            Cardápio digital totalmente responsivo, construído com HTML5 e CSS3 para prática de layout, grid e design de
+            interfaces.
+          </p>
+          <div class="btns">
+            <a href="https://emilly-andrade-dev.github.io/projeto-cardapio-cafe/">Ver projeto</a>
+            <a href="https://github.com/emilly-andrade-dev/projeto-cardapio-cafe">Ver código</a>
+          </div>
+        </div>
+
+        <div class="projeto-card">
+          <img src="assets/img/screenshots/simulador-de-partidas-mario-kart-desafio-dio.jpeg" />
+          <h3>Desafio Back-end: Simulador de Partidas do Mario Kart</h3>
+          <p>
+            Este projeto foi desenvolvido para reforçar lógica, rever conceitos de JavaScript e entender pacotes do Node.js, otimizando a organização do código.
+          </p>
+          <div class="btns">
+            <a href="https://emilly-andrade-dev.github.io/projeto-cardapio-cafe/">Ver projeto</a>
+            <a href="https://github.com/emilly-andrade-dev/projeto-cardapio-cafe">Ver código</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="container contato-card">
+      <h2>Contato</h2>
+      <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+      <div class="social-links">
+        <a href="https://github.com/emilly-andrade-dev" class="btn-social">
+          <i class="devicon-github-original"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/emilly-andrade-ads/" class="btn-social">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:emilly.andrade.digital@email.com" class="btn-social">
+          <i class="fas fa-envelope"></i> E-mail
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+      <p>
+        Template criado por
+        <a href="https://github.com/yasmngoncalves" target="_blank"
+          >@yasmndev</a
+        >
+        • Livre para usar e personalizar 🦋
+      </p>
+  </footer>
+
+  <!-- SCRIPT: Animação Hello World na Hero -->
+  <script>
+    const text = "Hello, World!";
+    const typedEl = document.getElementById("typed");
+
+    let i = 0;
+    function digitar() {
+      if (i < text.length) {
+        typedEl.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(digitar, 120);
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", digitar);
+  </script>
+</body>
+
+</html>
