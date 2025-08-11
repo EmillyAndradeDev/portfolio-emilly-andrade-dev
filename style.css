@@ -65,6 +65,17 @@ header {
   color: var(--cor01);
 }
 
+.logo-pequeno {
+    width: 40px;
+    /* Define a largura da imagem */
+    height: 40px;
+    /* Define a altura da imagem (mesma largura para ser circular) */
+    border-radius: 50%;
+    /* Arredonda a imagem em um círculo */
+    margin-left: 10px;
+    /* Cria um espaço entre o texto e a imagem */
+}
+
 /* Navegação padrão (desktop) */
 .navbar {
   display: flex;
