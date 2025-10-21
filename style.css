@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-/* Reset básico e ajustes globais */
 * {
   margin: 0;
   padding: 0;
@@ -8,21 +6,16 @@
 }
 
 :root{
-    /*Cores de uso geral: */
-    /* --cor01: #ff00c8; rosa */
     --cor01: #D96299;
-    --cor02: #fefefe; /*branco gelo*/
+    --cor02: #fefefe; 
     --cor03: #745549;
-    /* --cor03: #222; preto claro */
     --cor04: #43291F;
-    /* --cor04: #111; preto */
-    --cor05: #fff; /*branco*/
-    --cor06: #f9f9f9; /*branco footer a*/
-    --cor07: #666; /*footer*/
+    --cor05: #fff; 
+    --cor06: #f9f9f9;
+    --cor07: #666; 
     --cor08:#ff007780; 
-    /* --cor08: #ff00c888; profile image */
-    --cor09: #333; /*section text, skill card*/
-    --cor10: #444; /*section subtitle, projeto card, contato card*/
+    --cor09: #333;
+    --cor10: #444; 
 }
 
 body {
@@ -38,7 +31,6 @@ body {
   padding: 1rem;
 }
 
-/* Header fixo com logo e navegação */
 header {
   background-color: var(--cor04);
   padding: 0.82rem 0;
@@ -67,13 +59,9 @@ header {
 
 .logo-pequeno {
     width: 40px;
-    /* Define a largura da imagem */
     height: 40px;
-    /* Define a altura da imagem (mesma largura para ser circular) */
     border-radius: 50%;
-    /* Arredonda a imagem em um círculo */
     margin-left: 10px;
-    /* Cria um espaço entre o texto e a imagem */
 }
 
 /* Navegação padrão (desktop) */
@@ -351,10 +339,21 @@ header {
   transform: translateY(-5px);
 }
 
+.projeto-card-img-container {
+    width: 100%;
+    height: 180px;
+    background-color: var(--cor02); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
 .projeto-card img {
-  width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block;
+    object-fit: contain; 
 }
 
 .projeto-card h3 {
@@ -373,6 +372,7 @@ header {
   gap: 1rem;
   margin: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projeto-card .btns a {
