@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+
   <header>
     <div class="container nav-wrapper">
       <img class="logo-pequeno" src="assets/img/logo-EmillyAndradeDev.png" alt="Logo de Emilly Andrade">
@@ -33,247 +35,326 @@
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-img">
-        <img src="assets/img/emilly-andrade-01.jpeg" alt="Foto de perfil" class="profile-img" />
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img src="assets/img/emilly-andrade-01.jpeg" alt="Foto de perfil" class="profile-img" />
+        </div>
+        <div class="hero-text">
+          <h2><span class="typed-text" id="typed"></span></h2>
+          <p>
+            Desenvolvedora Front-End em formação, apaixonada por criar interfaces intuitivas e experiências de usuário
+            memoráveis com JavaScript e React.
+          </p>
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        </div>
       </div>
-      <div class="hero-text">
-        <h2><span class="typed-text" id="typed"></span></h2>
-        <p>
-          Dev em formação, com um pé no front-end, outro no back-end, e a mente voltada para soluções completas.
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-text">
+          Sou estudante de Análise e Desenvolvimento de Sistemas e futura <strong>Desenvolvedora Front-End</strong>.
+          Minha
+          trajetória começou na área de humanas e passou por experiências com docência e atendimento, o que me deu uma
+          base sólida em comunicação, empatia e organização.
         </p>
-        <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        <p class="section-text">
+          Atualmente, estou 100% focada no <strong>desenvolvimento front-end</strong>. Já possuo uma base sólida em
+          HTML5,
+          CSS3 (incluindo <strong>Flexbox, Grid e responsividade</strong>) e <strong>JavaScript (ES6+)</strong> para
+          criar
+          interfaces dinâmicas e manipular o DOM.
+        </p>
+        <p class="section-text">
+          Meu próximo passo, e foco atual de estudos, é <strong>React.js</strong> e <strong>TypeScript</strong>, para
+          construir aplicações web modernas e escaláveis.
+        </p>
+        <p class="section-text">
+          Também tenho noções de back-end com Node.js, o que me dá uma visão completa de como <strong>consumir APIs
+            RESTful</strong> de forma eficiente. Tenho prática diária com Git/GitHub e metodologias ágeis como Kanban e
+          Scrum para garantir um fluxo de trabalho organizado.
+        </p>
+        <p class="section-text">
+          Sou organizada, curiosa e movida por desafios. Acredito que o desenvolvimento envolve <strong>colaboração,
+            empatia e pensamento crítico</strong> para criar produtos que realmente resolvam problemas.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="sobre" class="section">
-    <div class="container about-text">
-      <h2 class="section-title">Sobre mim</h2>
-      <p class="section-text">
-        Sou estudante de Análise e Desenvolvimento de Sistemas e futura <strong>desenvolvedora full stack</strong>.
-        Minha trajetória começou na área de humanas e passou por experiências com docência, atendimento ao público e
-        design gráfico, foi nesse caminho que descobri a tecnologia como ponte entre criatividade e impacto real.
-      </p>
-      <p class="section-text">
-        Atualmente, estou focada no desenvolvimento web, com foco em <strong>front-end</strong> usando HTML5, CSS3
-        (Flexbox, Grid, responsividade e animações), JavaScript e TypeScript para criação de interfaces dinâmicas,
-        manipulação do DOM e aplicação de lógica de programação avançada. No <strong>back-end</strong>, trabalho com
-        Node.js, REST APIs, modularização de projetos com CommonJS e ESM, manipulação de JSON, integração de sistemas e
-        automação de tarefas utilizando npm. Também aplico boas práticas de debugging, testes e manutenção de códigos.
-      </p>
-      <p class="section-text">
-        Tenho experiência com controle de versão usando Git e GitHub, colaboração em projetos open source, e
-        metodologias ágeis como Scrum e Kanban, garantindo produtividade, organização e trabalho em equipe. Além disso,
-        busco soluções eficientes com atenção à <strong>acessibilidade, usabilidade e experiência do usuário</strong>.
-      </p>
-      <p class="section-text">
-        Sou organizada, curiosa, comunicativa e movida por desafios. Acredito que o desenvolvimento full stack vai além
-        da técnica, envolvendo <strong>colaboração, empatia e pensamento crítico</strong> para criar produtos que
-        realmente resolvam problemas e causem impacto positivo.
-      </p>
-    </div>
-  </section>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-typescript-original colored"></i>
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-bootstrap-plain colored"></i>
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-nodejs-plain-wordmark colored"></i>
+            <span>Node.js</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original colored"></i>
+            <span>GitHub</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-terminal-plain"></i>
+            <span>REST APIs</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-npm-original-wordmark colored"></i>
+            <span>NPM</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-python-plain colored"></i>
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-vscode-plain colored"></i>
+            <span>VSCode</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-pycharm-plain colored"></i>
+            <span>PyCharm</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original colored"></i>
+            <span>Copilot</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-windows8-original colored"></i>
+            <span>Windows</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-trello-plain colored"></i>
+            <span>Trello</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-jira-plain colored"></i>
+            <span>Jira</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-notion-plain colored"></i>
+            <span>Notion</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-google-plain colored"></i>
+            <span>Gemini</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-comment-dots colored"></i>
+            <span>ChatGPT</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-file-word colored"></i>
+            <span>Word</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-file-excel colored"></i>
+            <span>Excel</span>
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-file-powerpoint colored"></i>
+            <span>PowerPoint</span>
+          </div>
 
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <i class="devicon-html5-plain colored"></i>
-          <span>HTML5</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-css3-plain colored"></i>
-          <span>CSS3</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-javascript-plain colored"></i>
-          <span>JavaScript</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-typescript-original colored"></i>
-          <span>TypeScript</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-nodejs-plain-wordmark colored"></i>
-          <span>Node.js</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-npm-original-wordmark colored"></i>
-          <span>NPM</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-terminal-plain"></i>
-          <span>REST APIs</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-python-plain colored"></i>
-          <span>Python</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-git-plain colored"></i>
-          <span>Git</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-github-original colored"></i>
-          <span>GitHub</span>
-        </div>
-        <div class="skill-card">
-          <i class="devicon-vscode-plain colored"></i>
-          <span>VSCode</span>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="github" class="section">
-    <div class="container">
-      <h2 class="section-title">Meus códigos no GitHub</h2>
-      <p class="section-subtitle">Meu portfólio no GitHub reflete minha jornada de aprendizado em programação. Lá você
-        encontrará projetos e exercícios que demonstram minha evolução e paixão por desafios.</p>
-      <a href="https://github.com/EmillyAndradeDev" target="_blank" class="btn btn-primary">
-        <i class="devicon-github-original"></i> Ver meu GitHub
-      </a>
-    </div>
-  </section>
-
-  <section id="projetos" class="section">
-    <div class="container">
-      <h2>Projetos</h2>
-      <div class="projetos-grid">
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/playtime-store-js-shopping-cart-02.jpeg" alt="Screenshot da página do projeto PlayTime Store Shopping Cart"/></div>
-          <h3>PlayTime Store - Shopping Cart </h3>
-          <p>
-            Projeto Front-End que simula a lógica funcional de um Carrinho de Compras. O foco principal é a demonstração de manipulação do DOM e a aplicação de lógica de negócios (cálculos e gestão de estado) utilizando JavaScript Puro (Vanilla JS).
-          </p>
-          <div class="btns">
-            <a href="https://emillyandradedev.github.io/js-shopping-cart/" target="_blank">Ver projeto</a>
-            <a href="https://github.com/EmillyAndradeDev/js-shopping-cart" target="_blank">Ver
-              código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/rpg-aventuras-06.png" /></div>
-          <h3>RPG - Escolha Sua Aventura </h3>
-          <p>
-            Um jogo no estilo “Escolha sua aventura”, onde cada decisão leva a caminhos diferentes,
-            resultando em finais variados. O projeto é modular, permitindo criar várias histórias no mesmo
-            sistema, apenas alterando os dados da aventura.
-          </p>
-          <div class="btns">
-            <a href="https://emillyandradedev.github.io/rpg-escolha-sua-aventura/" target="_blank">Ver projeto</a>
-            <a href="https://github.com/EmillyAndradeDev/rpg-escolha-sua-aventura" target="_blank">Ver
-              código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/screenshot-tabernageek.png" /></div>
-          <h3>Dynamic Pricing Calculator</h3>
-          <p>
-            Implementação de lógica de desconto progressivo (0% a 20%) aplicada a um carrinho de compras. Desenvolvido em Vanilla JavaScript para demonstrar a tradução de regras de negócio complexas em um ambiente puramente Front-End.
-          </p>
-          <div class="btns">
-            <a href="https://emillyandradedev.github.io/dynamic-pricing-calculator-js/" target="_blank">Ver projeto</a>
-            <a href="https://github.com/EmillyAndradeDev/dynamic-pricing-calculator-js" target="_blank">Ver
-              código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/todolist02.jpeg" alt="Screenshot da página do To-Do App"/></div>
-          <h3>To-Do App (Vanilla JS)</h3>
-          <p>
-            Aplicação interativa de gerenciamento de tarefas desenvolvida com HTML, CSS e JavaScript Puro. O sistema permite ao usuário adicionar, editar, excluir e marcar itens como concluídos, utilizando o localStorage para garantir a persistência dos dados no navegador.
-          </p>
-          <div class="btns">
-            <a href="https://emillyandradedev.github.io/todo-app-vanilla-js/" target="_blank">Ver projeto</a>
-            <a href="https://github.com/EmillyAndradeDev/todo-app-vanilla-js" target="_blank">Ver código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/nodejs-utilities-kit-qrcode-password-02.jpeg" alt="Screenshot da página do projeto Node.js Utilities Kit"/></div>
-          <h3>Node.js Utilities Kit (QRCode & Password)</h3>
-          <p>
-            Kit de ferramentas back-end desenvolvido com Node.js, incluindo utilidades como geração de QR Codes e senhas seguras. O projeto foca na prática de lógica modular, manipulação de dados e integração de pacotes NPM, reforçando habilidades de desenvolvimento server-side.
-          </p>
-          <div class="btns">
-            <a href="https://github.com/EmillyAndradeDev/nodejs-qrcode-password-generator" target="_blank">Ver
-              código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <div class="projeto-card-img-container"><img src="assets/img/screenshots/quizz-cacadores-de-erros-05.jpeg" alt="Screenshot da página do projeto Quizz de Gramática"/></div>
-          <h3>Quizz Interativo: Caçadores de Erros - Gramática</h3>
-          <p>
-            Este projeto foi desenvolvido para exercitar a lógica de programação e a interatividade com o usuário,
-            praticando o controle de fluxo no JavaScript, ao mesmo tempo que treinava as técnicas de estilização e
-            responsividade com CSS.
-          </p>
-          <div class="btns">
-            <a href="https://emillyandradedev.github.io/quizz-cacadores-de-erros-gramatica-e-ortografia/"
-              target="_blank">Ver
-              projeto</a>
-            <a href="https://github.com/EmillyAndradeDev/quizz-cacadores-de-erros-gramatica-e-ortografia"
-              target="_blank">Ver código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <h3>Podcast Manager</h3>
-          <p>
-            Aplicação backend desenvolvida com Node.js e TypeScript, oferecendo uma API REST para gerenciamento e
-            organização de episódios de podcasts em vídeo, com filtros por nome e categorias, prática de rotas,
-            endpoints e estrutura escalável.
-          </p>
-          <div class="btns">
-            <a href="https://github.com/EmillyAndradeDev/nodejs-typescript-webapi-without-frameworks"
-              target="_blank">Ver código</a>
-          </div>
-        </div>
-
-        <div class="projeto-card">
-          <!-- <img src="assets/img/screenshots/simulador-de-partidas-mario-kart-desafio-dio.jpeg" /> -->
-          <h3>Desafio Back-end: Simulador de Partidas do Mario Kart</h3>
-          <p>
-            Este projeto foi desenvolvido para reforçar lógica, rever conceitos de JavaScript e entender pacotes do
-            Node.js, otimizando a organização do código.
-          </p>
-          <div class="btns">
-            <!-- <a href="https://emilly-andrade-dev.github.io/projeto-cardapio-cafe/">Ver projeto</a> -->
-            <a href="https://github.com/EmillyAndradeDev/desafio-dio-simulador-de-corridas-do-mario-kart"
-              target="_blank">Ver código</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section id="contato" class="section">
-    <div class="container contato-card">
-      <h2>Contato</h2>
-      <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
-      <div class="social-links">
-        <a href="https://github.com/EmillyAndradeDev" class="btn-social">
-          <i class="devicon-github-original"></i> GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/emilly-andrade-ads/" class="btn-social">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        <a href="mailto:emilly.andrade.digital@email.com" class="btn-social">
-          <i class="fas fa-envelope"></i> E-mail
+    <section id="github" class="section">
+      <div class="container">
+        <h2 class="section-title">Meus códigos no GitHub</h2>
+        <p class="section-subtitle">Meu portfólio no GitHub reflete minha jornada de aprendizado em programação. Lá você
+          encontrará projetos e exercícios que demonstram minha evolução e paixão por desafios.</p>
+        <a href="https://github.com/EmillyAndradeDev" target="_blank" class="btn btn-primary">
+          <i class="devicon-github-original"></i> Ver meu GitHub
         </a>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img
+                src="assets/img/screenshots/playtime-store-js-shopping-cart-02.jpeg"
+                alt="Screenshot da página do projeto PlayTime Store Shopping Cart" /></div>
+            <h3>PlayTime Store - Shopping Cart </h3>
+            <p>
+              Projeto Front-End que simula a lógica funcional de um Carrinho de Compras. O foco principal é a
+              demonstração
+              de manipulação do DOM e a aplicação de lógica de negócios (cálculos e gestão de estado) utilizando
+              JavaScript Puro (Vanilla JS).
+            </p>
+            <div class="btns">
+              <a href="https://emillyandradedev.github.io/js-shopping-cart/" target="_blank">Ver projeto</a>
+              <a href="https://github.com/EmillyAndradeDev/js-shopping-cart" target="_blank">Ver
+                código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img src="assets/img/screenshots/rpg-aventuras-06.png" /></div>
+            <h3>RPG - Escolha Sua Aventura </h3>
+            <p>
+              Um jogo no estilo “Escolha sua aventura”, onde cada decisão leva a caminhos diferentes,
+              resultando em finais variados. O projeto é modular, permitindo criar várias histórias no mesmo
+              sistema, apenas alterando os dados da aventura.
+            </p>
+            <div class="btns">
+              <a href="https://emillyandradedev.github.io/rpg-escolha-sua-aventura/" target="_blank">Ver projeto</a>
+              <a href="https://github.com/EmillyAndradeDev/rpg-escolha-sua-aventura" target="_blank">Ver
+                código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img src="assets/img/screenshots/screenshot-tabernageek.png" />
+            </div>
+            <h3>Dynamic Pricing Calculator</h3>
+            <p>
+              Implementação de lógica de desconto progressivo (0% a 20%) aplicada a um carrinho de compras. Desenvolvido
+              em Vanilla JavaScript para demonstrar a tradução de regras de negócio complexas em um ambiente puramente
+              Front-End.
+            </p>
+            <div class="btns">
+              <a href="https://emillyandradedev.github.io/dynamic-pricing-calculator-js/" target="_blank">Ver
+                projeto</a>
+              <a href="https://github.com/EmillyAndradeDev/dynamic-pricing-calculator-js" target="_blank">Ver
+                código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img src="assets/img/screenshots/todolist02.jpeg"
+                alt="Screenshot da página do To-Do App" /></div>
+            <h3>To-Do App (Vanilla JS)</h3>
+            <p>
+              Aplicação interativa de gerenciamento de tarefas desenvolvida com HTML, CSS e JavaScript Puro. O sistema
+              permite ao usuário adicionar, editar, excluir e marcar itens como concluídos, utilizando o localStorage
+              para
+              garantir a persistência dos dados no navegador.
+            </p>
+            <div class="btns">
+              <a href="https://emillyandradedev.github.io/todo-app-vanilla-js/" target="_blank">Ver projeto</a>
+              <a href="https://github.com/EmillyAndradeDev/todo-app-vanilla-js" target="_blank">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img
+                src="assets/img/screenshots/nodejs-utilities-kit-qrcode-password-02.jpeg"
+                alt="Screenshot da página do projeto Node.js Utilities Kit" /></div>
+            <h3>Node.js Utilities Kit (QRCode & Password)</h3>
+            <p>
+              Kit de ferramentas back-end desenvolvido com Node.js, incluindo utilidades como geração de QR Codes e
+              senhas
+              seguras. O projeto foca na prática de lógica modular, manipulação de dados e integração de pacotes NPM,
+              reforçando habilidades de desenvolvimento server-side.
+            </p>
+            <div class="btns">
+              <a href="https://github.com/EmillyAndradeDev/nodejs-qrcode-password-generator" target="_blank">Ver
+                código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <div class="projeto-card-img-container"><img src="assets/img/screenshots/quizz-cacadores-de-erros-05.jpeg"
+                alt="Screenshot da página do projeto Quizz de Gramática" /></div>
+            <h3>Quizz Interativo: Caçadores de Erros - Gramática</h3>
+            <p>
+              Este projeto foi desenvolvido para exercitar a lógica de programação e a interatividade com o usuário,
+              praticando o controle de fluxo no JavaScript, ao mesmo tempo que treinava as técnicas de estilização e
+              responsividade com CSS.
+            </p>
+            <div class="btns">
+              <a href="https://emillyandradedev.github.io/quizz-cacadores-de-erros-gramatica-e-ortografia/"
+                target="_blank">Ver
+                projeto</a>
+              <a href="https://github.com/EmillyAndradeDev/quizz-cacadores-de-erros-gramatica-e-ortografia"
+                target="_blank">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <h3>Podcast Manager</h3>
+            <p>
+              Aplicação backend desenvolvida com Node.js e TypeScript, oferecendo uma API REST para gerenciamento e
+              organização de episódios de podcasts em vídeo, com filtros por nome e categorias, prática de rotas,
+              endpoints e estrutura escalável.
+            </p>
+            <div class="btns">
+              <a href="https://github.com/EmillyAndradeDev/nodejs-typescript-webapi-without-frameworks"
+                target="_blank">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <!-- <img src="assets/img/screenshots/simulador-de-partidas-mario-kart-desafio-dio.jpeg" /> -->
+            <h3>Desafio Back-end: Simulador de Partidas do Mario Kart</h3>
+            <p>
+              Este projeto foi desenvolvido para reforçar lógica, rever conceitos de JavaScript e entender pacotes do
+              Node.js, otimizando a organização do código.
+            </p>
+            <div class="btns">
+              <!-- <a href="https://emilly-andrade-dev.github.io/projeto-cardapio-cafe/">Ver projeto</a> -->
+              <a href="https://github.com/EmillyAndradeDev/desafio-dio-simulador-de-corridas-do-mario-kart"
+                target="_blank">Ver código</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container contato-card">
+        <h2>Contato</h2>
+        <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+        <div class="social-links">
+          <a href="https://github.com/EmillyAndradeDev" class="btn-social">
+            <i class="devicon-github-original"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/emilly-andrade-ads/" class="btn-social">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="mailto:emilly.andrade.digital@email.com" class="btn-social">
+            <i class="fas fa-envelope"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script>
     const text = "Hello, World!";
